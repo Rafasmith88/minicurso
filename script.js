@@ -19,7 +19,7 @@ gerarValorAleatorio = () => {
 
 pegarPersonagem = () => {
     let numeroAleatorio = gerarValorAleatorio();
-    return fetch(`https://rickandmortyapi.com/api/character/${numeroAleatorio}` ,) {
+    return fetch(`https://rickandmortyapi.com/api/character/${numeroAleatorio}`, {
         method:'GET',
         headers: {
             Acept: 'application/json',
